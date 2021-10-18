@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App - Amadeo Isella (CoderHouse)</title>
+    <!-- Js -->
+    <script async src="index.js"></script>
+    <!-- Css -->
+    <link rel="stylesheet" href="style.css" />
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!--Header-->
+    <header class="header">
+      <form class="search-form">
+        <input
+          type="text"
+          class="search-city"
+          placeholder="City"
+          name="search"
+        />
+        <input type="submit" class="search-button" value="Search" />
+      </form>
+    </header>
+
+    <!--Content weather-->
+    <section class="content">
+      <div class="weather-content">
+        <h2 class="weather-title-city">City</h2>
+        <h4 class="weather-subtitle-day">Today</h4>
+        <img src="src/sun1.png" alt="" class="logo-weather" />
+        <h2 class="wather-degrees">Temp°C</h2>
+      </div>
+    </section>
+
+    <!--Container items-->
+    <div class="content-days-after"></div>
+
+    <!--Template items-->
+    <template class="template-day-after">
+      <div class="item-day">
+        <img src="" alt="" class="logo-day" />
+        <h5 class="day-degrees"></h5>
+        <h6 class="day-date"></h6>
+      </div>
+    </template>
+  </body>
+</html>
