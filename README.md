@@ -1,6 +1,6 @@
 ### 👋 welcome to my weather application 🌤️
 
-Hi! go ahead use my free weather app [my weather application](https://amadeoisella.github.io/Weather-App/).
+Hi! go ahead use my free [weather app](https://amadeoisella.github.io/Weather-App/).
 
 -Find in a simple way the climate of your country, city, etc.
 !Use it, it's free!.
